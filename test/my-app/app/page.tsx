@@ -21,9 +21,9 @@ function Intro() {
     <div>
       <h1>Kudra Dube</h1>
       <p>
-        Full-stack web developer and teacher at Udemy. When not coding or
-        preparing a course, I like to play board games, cook and eat or to just
-        enjoy the Portuguese sun at the beach.
+        Full-stack web developer and student at ABC. When not coding or
+        studying, I like to hangout with friends, watch football or just spent
+        time with family.
       </p>
     </div>
   );
