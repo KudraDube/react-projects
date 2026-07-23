@@ -7,20 +7,19 @@ export default function App() {
       <div className="data">
         <Intro />
         <SkillList />
-        <Skill />
       </div>
     </div>
   );
 }
 
 function Avatar() {
-  return <img className="avatar" src="/jonas.jpeg" alt="jonas" />;
+  return <img className="avatar" src="/Kudra.jpeg" alt="Kudra Dube" />;
 }
 
 function Intro() {
   return (
     <div>
-      <h1>Jonas Schmedtmann</h1>
+      <h1>Kudra Dube</h1>
       <p>
         Full-stack web developer and teacher at Udemy. When not coding or
         preparing a course, I like to play board games, cook and eat or to just
@@ -33,15 +32,15 @@ function Intro() {
 function SkillList() {
   return (
     <div className="skill-list">
-      <Skill skill="React" color="pink" />
-      <Skill skill="HTML+CSS" color="orange" />
+      <Skill skill="React.JS" color="pink" />
+      <Skill skill="Node.JS" color="orange" />
       <Skill skill="Javascript" color="yellow" />
-      <Skill skill="Svelte" color="grey" />
+      <Skill skill="Solidity" color="grey" />
     </div>
   );
 }
 
-function Skill(props) {
+function Skill(props: { skill: string; color: string }) {
   return (
     <div className="skill" style={{ backgroundColor: props.color }}>
       <span>{props.skill}</span>
